@@ -50,7 +50,7 @@ public class DateTime implements Comparable<DateTime>{
 
     public DateTime plusTime(int offset, TimeUnit unit){
         if(offset == 0){
-            return this;
+            return new DateTime(this.timestamp);
         }
         long millis = unit.toMillis(Math.abs(offset));
         if(offset < 0){
