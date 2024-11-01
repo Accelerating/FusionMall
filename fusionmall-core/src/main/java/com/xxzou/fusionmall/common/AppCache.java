@@ -1,4 +1,4 @@
-package com.xxzou.fusionmall.cache;
+package com.xxzou.fusionmall.common;
 
 
 import com.github.benmanes.caffeine.cache.Cache;

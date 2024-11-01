@@ -1,4 +1,4 @@
-package com.xxzou.fusionmall.util;
+package com.xxzou.fusionmall.common;
 
 
 

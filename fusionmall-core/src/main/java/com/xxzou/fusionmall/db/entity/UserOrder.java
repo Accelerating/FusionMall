@@ -1,7 +1,7 @@
 package com.xxzou.fusionmall.db.entity;
 
 
-import com.xxzou.fusionmall.util.DateTime;
+import com.xxzou.fusionmall.common.DateTime;
 import lombok.Data;
 
 @Data

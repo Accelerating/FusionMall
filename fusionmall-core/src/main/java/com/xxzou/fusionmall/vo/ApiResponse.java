@@ -1,7 +1,15 @@
 package com.xxzou.fusionmall.vo;
 
+import lombok.Data;
+
 /**
  * @author zxx
  */
-public class ApiResponse {
+@Data
+public class ApiResponse<T> {
+
+    private int code;
+    private String msg;
+    private T data;
+
 }
